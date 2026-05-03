@@ -64,7 +64,7 @@ const Login = () => {
             </div>
             <div className="tos-footer">
               <button onClick={() => { setAgreedToS(true); setShowToS(false); }} className="tos-accept-btn">
-                ✓ Jag godkänner villkoren
+                ✓ Jag godkänner villkoren Om du är ett lärrareee måste lesa
               </button>
             </div>
           </div>
