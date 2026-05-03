@@ -4,7 +4,7 @@ import { useAuth } from '../context/AuthContext';
 import { Link, useNavigate } from 'react-router-dom';
 import { X, FileText } from 'lucide-react';
 
-const TERMS = `Användarvillkor för Chataaa
+const TERMS = `Användarvillkor för Chataaa 
 
 Genom att skapa ett konto godkänner du följande regler:
 
@@ -19,7 +19,13 @@ Genom att skapa ett konto godkänner du följande regler:
    Du får inte ta bort eller blockera denna tjänst med juridiska hot.
    Du äger ditt eget innehåll men ger Chataaa rätt att visa det.
 
-Brott mot dessa regler kan leda till att ditt konto stängs av.`;
+4.  Om du är ett lärrare du MÅSTE faktisk läsa detta förSÖK
+    inte att BLOCKA detta html coden för att jag kommer göra ett
+    nyy så womp womp! jag är inte 5år gammamamalalal
+
+5. Om du ska ta ne eller behöver KONTACT prata med Bowen faktisk bc me sigma
+
+Brott mot dessa regler kan leda till att ditt konto stängs av eller att få ett Sue, eller en laglit sue :) SPECIELT ni rektorn och lärrare och ni som blocka våra sites visa reSPECKt lel bro :) .`;
 
 const Login = () => {
   const [username, setUsername] = useState('');
